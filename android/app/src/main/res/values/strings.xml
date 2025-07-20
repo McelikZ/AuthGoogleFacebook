@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">AuthGoogle</string>
-    <string name="facebook_app_id">1266988065174842</string>
-    <string name="facebook_client_token">a0bef73559ab0f17f447e78cd2cd00f8</string>
+    <string name="facebook_app_id"></string>
+    <string name="facebook_client_token"></string>
 </resources>
