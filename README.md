@@ -10,9 +10,12 @@ AuthGoogle-main
 To avoid any issues while working with the project, please rename the folder to:
 AuthGoogle
 
+### ⚠️  Note:
+Please ensure to properly set up and monitor Google and Facebook integrations in your Firebase console and developer accounts to enable smooth authentication and avoid any disruptions.
+
 # About the Project
 
-This is a basic login application developed with React Native and Expo. It provides essential components and navigation infrastructure for user authentication.
+This is a basic login application developed with React Native CLI. It provides essential components and navigation infrastructure for user authentication.
 
 # Dependencies and Setup
 
@@ -37,19 +40,17 @@ AsyncStorage: For persistent local storage in React Native apps.
 
 - npm install @react-native-async-storage/async-storage
 
-Expo Build:
+Google Sign-In: For Google login
 
-- npm install expo
+- npm install @react-native-google-signin/google-signin
 
-Expo packages:
+React Native:
 
-Included with Expo SDK:
+- npm install react react-native
 
-expo
+Facebook SDK: For facebook login
 
-expo-status-bar
-
-expo-web-browser
+- npm install react-native-fbsdk-next
 
 # Important Note: Firebase Setup Required
 
