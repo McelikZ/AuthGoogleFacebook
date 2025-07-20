@@ -1,0 +1,43 @@
+{
+  "project_info": {
+    "project_number": "299570814041",
+    "project_id": "loginproject-c176e",
+    "storage_bucket": "loginproject-c176e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:299570814041:android:417688a9a4b233d5c9a548",
+        "android_client_info": {
+          "package_name": "com.authgoogle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "299570814041-dneou93d57157ntjg62pckbfeegu1718.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.authgoogle",
+            "certificate_hash": "b8e33524745b45e6663215f7cf8370d831d5c3ba"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTT8FenGtA9_zH4AE8oEGwlRmm0OknQ0k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "299570814041-imorfrg7l25pj5e3houpmf9cm6rsops7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
