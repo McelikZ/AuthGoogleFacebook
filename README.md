@@ -5,7 +5,7 @@ Warning:
 ### ⚠️ Folder Name Notice
 
 If you downloaded this project as a `.zip` file from GitHub, the extracted folder may be named something like:
-AuthGoogle-main
+AuthGoogleFacebook-main
 
 To avoid any issues while working with the project, please rename the folder to:
 AuthGoogle
