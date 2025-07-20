@@ -1,97 +1,107 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# AuthGoogle
 
-# Getting Started
+Warning:
 
-> **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
+### ⚠️ Folder Name Notice
 
-## Step 1: Start Metro
+If you downloaded this project as a `.zip` file from GitHub, the extracted folder may be named something like:
+AuthGoogle-main
 
-First, you will need to run **Metro**, the JavaScript build tool for React Native.
+To avoid any issues while working with the project, please rename the folder to:
+AuthGoogle
 
-To start the Metro dev server, run the following command from the root of your React Native project:
+# About the Project
 
-```sh
-# Using npm
-npm start
+This is a basic login application developed with React Native and Expo. It provides essential components and navigation infrastructure for user authentication.
 
-# OR using Yarn
-yarn start
-```
+# Dependencies and Setup
 
-## Step 2: Build and run your app
+This project uses the following main libraries and packages as specified in package.json:
 
-With Metro running, open a new terminal window/pane from the root of your React Native project, and use one of the following commands to build and run your Android or iOS app:
+Redux Toolkit & React Redux: For efficient global state management.
 
-### Android
+- npm install @reduxjs/toolkit react-redux
+  
+React Navigation: For handling navigation between screens.
+Core navigation and native dependencies:
 
-```sh
-# Using npm
-npm run android
+- npm install @react-navigation/native react-native-screens react-native-safe-area-context
 
-# OR using Yarn
-yarn android
-```
+- npm install @react-navigation/native-stack
 
-### iOS
+Firebase & React Native Firebase: For backend services and authentication.
 
-For iOS, remember to install CocoaPods dependencies (this only needs to be run on first clone or after updating native deps).
+- npm install firebase @react-native-firebase/app @react-native-firebase/auth
 
-The first time you create a new project, run the Ruby bundler to install CocoaPods itself:
+AsyncStorage: For persistent local storage in React Native apps.
 
-```sh
-bundle install
-```
+- npm install @react-native-async-storage/async-storage
 
-Then, and every time you update your native dependencies, run:
+Expo Build:
 
-```sh
-bundle exec pod install
-```
+- npm install expo
 
-For more information, please visit [CocoaPods Getting Started guide](https://guides.cocoapods.org/using/getting-started.html).
+Expo packages:
 
-```sh
-# Using npm
-npm run ios
+Included with Expo SDK:
 
-# OR using Yarn
-yarn ios
-```
+expo
 
-If everything is set up correctly, you should see your new app running in the Android Emulator, iOS Simulator, or your connected device.
+expo-status-bar
 
-This is one way to run your app — you can also build it directly from Android Studio or Xcode.
+expo-web-browser
 
-## Step 3: Modify your app
+# Important Note: Firebase Setup Required
 
-Now that you have successfully run the app, let's make changes!
+To use this package properly, you need to provide your own firebaseConfig file and set up Firebase integrations.
 
-Open `App.tsx` in your text editor of choice and make some changes. When you save, your app will automatically update and reflect these changes — this is powered by [Fast Refresh](https://reactnative.dev/docs/fast-refresh).
+The example configuration file is included in the project as a template.
 
-When you want to forcefully reload, for example to reset the state of your app, you can perform a full reload:
+The package itself does not contain any real Firebase configuration or credentials.
 
-- **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Dev Menu**, accessed via <kbd>Ctrl</kbd> + <kbd>M</kbd> (Windows/Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (macOS).
-- **iOS**: Press <kbd>R</kbd> in iOS Simulator.
+Please make sure to create your Firebase project and add your configuration before running the app
 
-## Congratulations! :tada:
+# Technologies and Concepts Used
 
-You've successfully run and modified your React Native App. :partying_face:
+React Navigation: For handling navigation between screens.
 
-### Now what?
+Redux: Used for global state management.
 
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [docs](https://reactnative.dev/docs/getting-started).
+Props: For passing data between components.
 
-# Troubleshooting
+Services: Dedicated files for API calls and business logic.
 
-If you're having issues getting the above steps to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
+Firebase: Backend infrastructure for authentication and data management.
 
-# Learn More
+Components: Reusable UI components used throughout the app.
 
-To learn more about React Native, take a look at the following resources:
+Themes: Definitions of colors and styles for consistent UI design.
 
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+Flexbox
+
+# Project Structure
+
+/src
+
+  /components      # Reusable UI components
+  
+  /navigation      # Screen navigation setup
+  
+  /redux           # Redux store, reducers, and actions
+  
+  /services        # API and business logic services
+  
+  /screens         # Application screens
+  
+  /themes          # Color and style themes
+  
+  /utils           # Utility functions
+
+# Example Design
+
+ <img width="1275" height="957" alt="ExmpDesign" src="https://github.com/user-attachments/assets/c733f30d-4395-4f8b-aad7-dfdfc8eeee20" />
+
+  
+# Design
+
+<img width="1543" height="865" alt="RealDesign" src="https://github.com/user-attachments/assets/afe8af51-9906-4544-bf95-39c5219fa9e5" />
