@@ -13,34 +13,34 @@ export default StyleSheet.create({
     flex:2,
     alignItems:'center',
     justifyContent:'center',
-    marginTop:20
+    marginTop:spacing.medium
    },
    contentContainer: {
     flex: 2,
     alignItems: 'center',
-    paddingTop:120,
+    paddingTop:spacing.huge,
    },
    footerContainer:{
     flex:1,
     alignItems:'center',
     flexDirection: 'row',
-    paddingTop:110,
+    paddingTop:spacing.huge,
    },
    bottomTextContainer:{
     flexDirection: 'row',
-    paddingBottom:20,
+    paddingBottom:spacing.medium,
    },
    signInStyle:{
     fontWeight:'bold',
     fontSize:fonts.sizes.xlarge,
-    marginBottom:20,
+    marginBottom:spacing.medium,
     opacity:0.8,
    },
    enterValidStyle:{
      opacity:0.7,
    },
    orContinueWithStyle:{
-    margin:20,
+    margin:spacing.medium,
     opacity:0.5,
    },
    haventAnyAccountStyle:{
