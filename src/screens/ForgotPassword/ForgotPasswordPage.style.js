@@ -12,28 +12,28 @@ export default StyleSheet.create({
     flex:3,
     alignItems:'center',
     justifyContent:'center',
-    paddingBottom:100
+    paddingBottom:spacing.hugeSmall
    },
    contentContainer: {
     flex: 1,
     alignItems: 'center',
     justifyContent:'center',
-    paddingBottom:100
+    paddingBottom:spacing.hugeSmall
    },
    footerContainer:{
     flex:2,
     alignItems:'center',
     justifyContent:'center',
     flexDirection:'row',
-    paddingBottom:10
+    paddingBottom:spacing.medium
    },
    forgetPasswordText:{
     fontSize:25,
     fontWeight:'bold',
-    margin:10
+    margin:spacing.medium
    },
    dontWorryText:{
     opacity:0.5,
-    fontSize:14,
+    fontSize:fonts.sizes.medium,
    }
 })
