@@ -12,38 +12,38 @@ export default StyleSheet.create({
      flex:2,
      alignItems:'center',
      justifyContent:'center',
-     paddingBottom:120,
+     paddingBottom:spacing.huge,
      
     },
     contentContainer:{
      flex:2,
      alignItems:'center',
      justifyContent:'center',
-     marginBottom:25,
+     marginBottom:spacing.mediumLarge,
     },
     firstRowContainer:{
      flexDirection: 'row',
-     paddingTop:10,
+     paddingTop:spacing.small,
     },
     secondRowContainer:{
      flexDirection: 'row',
-     paddingTop:5
+     paddingTop:spacing.tiny
     },
     footerContainer:{
      flex:1,
      flexDirection:'row',
      alignItems:'center',
      justifyContent:'center',
-     marginBottom:50
+     marginBottom:spacing.xlarge
     },
     signUpStyle:{
-     fontSize:25,
+     fontSize:fonts.sizes.large,
      fontWeight:'bold',
      opacity:0.7,
-     marginBottom:10,
+     marginBottom:spacing.small,
     },
     infoTextSyle:{
-     fontSize:15,
+     fontSize:fonts.sizes.medium,
      fontWeight:'bold',
      opacity:0.5
     },
