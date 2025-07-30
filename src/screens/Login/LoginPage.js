@@ -31,8 +31,8 @@ const LoginPage = ({ navigation }) => {
 
   useEffect(() => {
     GoogleSignin.configure({
-      webClientId:
-        '299570814041-efg7ppsmsr1mbh4v6f00t3naqmthbmot.apps.googleusercontent.com',
+      webClientId:'//webclientId'
+        
     });
   }, []);
 
