@@ -2,6 +2,10 @@
 
 Warning:
 
+Google Integration:https://www.youtube.com/watch?v=J9qDaFTP9ao&t=386s
+
+Facebook Integration:https://www.youtube.com/watch?v=LqmlZiF_q9Y
+
 ### ⚠️ Folder Name Notice
 
 If you downloaded this project as a `.zip` file from GitHub, the extracted folder may be named something like:
